@@ -1,0 +1,36 @@
+[2024-07-24T11:26:43.272+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:26:43.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddis_dag.py for tasks to queue
+[2024-07-24T11:26:43.274+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:26:43.274+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:26:43.278+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:26:43.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddis_dag.py took 0.022 seconds
+[2024-07-24T11:27:13.635+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:27:13.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddis_dag.py for tasks to queue
+[2024-07-24T11:27:13.639+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:27:13.639+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:27:13.644+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:27:13.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddis_dag.py took 0.032 seconds
+[2024-07-24T11:27:34.912+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:27:34.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddis_dag.py for tasks to queue
+[2024-07-24T11:27:34.914+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:27:34.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:27:34.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:27:34.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddis_dag.py took 0.025 seconds
+[2024-07-24T11:28:05.332+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:05.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddis_dag.py for tasks to queue
+[2024-07-24T11:28:05.337+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:05.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:05.342+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:05.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddis_dag.py took 0.037 seconds
+[2024-07-24T11:28:35.736+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:35.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddis_dag.py for tasks to queue
+[2024-07-24T11:28:35.741+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:35.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:35.746+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:35.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddis_dag.py took 0.033 seconds
+[2024-07-24T11:28:46.883+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:46.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddis_dag.py for tasks to queue
+[2024-07-24T11:28:46.885+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:46.885+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:46.895+0000] {processor.py:840} INFO - DAG(s) 'elt_reddit_pipeline' retrieved from /opt/airflow/dags/reddis_dag.py
+[2024-07-24T11:28:46.982+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:46.982+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:elt_reddit_pipeline
+[2024-07-24T11:28:46.989+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:46.989+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:elt_reddit_pipeline
+[2024-07-24T11:28:46.993+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:46.993+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:elt_reddit_pipeline
+[2024-07-24T11:28:46.994+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:46.994+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T11:28:47.000+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:47.000+0000] {dag.py:3111} INFO - Creating ORM DAG for elt_reddit_pipeline
+[2024-07-24T11:28:47.005+0000] {logging_mixin.py:188} INFO - [2024-07-24T11:28:47.005+0000] {dag.py:3947} INFO - Setting next_dagrun for elt_reddit_pipeline to None, run_after=None
+[2024-07-24T11:28:47.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddis_dag.py took 0.136 seconds
