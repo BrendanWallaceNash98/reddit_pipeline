@@ -20,3 +20,16 @@ dag = DAG(
     catchup=False,
     tags=['reddit', 'elt', 'pipeline']
 )
+
+#straction form reddit
+
+extract = pythonOperator(
+    task_id = 'reddit_extraction',
+    python_callable=reddit_pipeline,
+    op_kwargs = {
+        'file_name': f'reddit_{file_postfix}',
+        'subreddit': 'dataengineering',
+        'time_filter': 'day',
+        'limit': 100
+    }
+)
