@@ -1,4 +1,4 @@
-from etl.reddit_etl import connect_reddit, extract_posts
+from etls.reddit_etl import connect_reddit, extract_posts
 from utils.constants import CLIENT_ID, SECRET
 
 

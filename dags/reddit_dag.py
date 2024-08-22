@@ -5,9 +5,9 @@ import sys
 
 from airflow.operators.python import PythonOperator
 
-from pipelines.reddit_pipeline import reddit_pipeline
-
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from pipelines.reddit_pipeline import reddit_pipeline
 
 default_args = {
     'owner': 'Brendan Wallace Nash',
@@ -28,9 +28,9 @@ dag = DAG(
 #straction form reddit
 
 extract = PythonOperator(
-    task_id = 'reddit_extraction',
+    task_id='reddit_extraction',
     python_callable=reddit_pipeline,
-    op_kwargs = {
+    op_kwargs={
         'file_name': f'reddit_{file_postfix}',
         'subreddit': 'dataengineering',
         'time_filter': 'day',
