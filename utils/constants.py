@@ -1,9 +1,14 @@
 import configparser
 import os
 
-parser = configparser.ConfigParser()
-parser.read(os.path.dirname(__file__), '../config/config.conf')
+# Use the absolute path within the Docker container
+config_file_path = os.path.join('/opt/airflow/config', 'config.conf')
 
+# Initialize the config parser and read the config file
+parser = configparser.ConfigParser()
+parser.read(config_file_path)
+
+# Retrieve the required configuration values
 SECRET = parser.get('api_keys', 'reddit_secret_key')
 CLIENT_ID = parser.get('api_keys', 'reddit_client_id')
 
@@ -13,5 +18,5 @@ DATABASE_PORT = parser.get('database', 'database_port')
 DATABASE_USER = parser.get('database', 'database_user')
 DATABASE_PASSWORD = parser.get('database', 'database_password')
 
-INPUT_PATH = parser.get('file_path','input_path')
-OUTPUT_PATH = parser.get('file_path', 'input_path')
+INPUT_PATH = parser.get('file_paths', 'input_path')
+OUTPUT_PATH = parser.get('file_paths', 'output_path')
