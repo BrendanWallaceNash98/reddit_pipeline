@@ -35,5 +35,6 @@ extract = PythonOperator(
         'subreddit': 'dataengineering',
         'time_filter': 'day',
         'limit': 100
-    }
+    },
+    dag=dag
 )

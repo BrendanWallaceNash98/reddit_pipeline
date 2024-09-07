@@ -1,0 +1,195 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1faatb8,Any tools to make these diagrams ,,159,61,Zyad070,2024-09-06 09:17:07,https://www.reddit.com/gallery/1faatb8,0.98,False,False,False,False
+1faapqa,Should I jump ship?,"I am working as a DE with 2 YOE in healthcare making just over 100k. There are opportunities to grow but employer is stingy with raise and career ladder is not clear after senior. However, work life balance is great - I am fully remote, rarely ever have to work over time and no micromanagement. Also no lay offs so far.
+
+I do often wonder if I could learn more from working for another company with big data and more modern tech stack. I am worried that the longer I stay here I might miss out on improving my technical skills and not be up to date with the job market. At the same time, I love having free time for my hobbies and having a low stress job...
+
+
+
+",53,31,Representative_Big47,2024-09-06 09:09:11,https://www.reddit.com/r/dataengineering/comments/1faapqa/should_i_jump_ship/,0.95,False,False,False,False
+1fabhml,wtf you guys do,"Hello! I'm an EFL teacher who has recently started working with a data engineer, and I need to teach him how to talk about his job in English. The problem is, even though I've learned the basic terms related to this area, I'm not sure how to use them correctly in a sentence.
+For example, pipelines. What do you do with them?  I've seen the collocation ""build pipelines"", but I'm sure there are much more.
+
+So, what I'm asking here is to help me find as many of these common collocations necessary to describe your job as possible. As if you were answering ""What are your job responsibilities"" question very thoroughly. 
+
+Thank you! ",41,22,eden_4004,2024-09-06 10:05:12,https://www.reddit.com/r/dataengineering/comments/1fabhml/wtf_you_guys_do/,0.82,False,False,False,False
+1faj4m2,Are the differences between Delta Lake and Apache Iceberg fading away? ,"I'm interested to see what people think of this idea. 
+
+With developments over the summer, it feels like Delta Lake and Apache Iceberg are truly converging into similar technologies. They've always been pretty similar in some ways, both data lakehouse table formats, but the similarities seem to have reached some kind of tipping point. You have Snowflake with Polaris, and Databricks with Unity. Both are open sourcing to the max, both are developing similar capabilities. In the case of Databricks, you even have Unity supporting both and their CEO saying that this will make the distinction between the two table formats almost meaningless in the end. Both offer many of the same features: time travel, schema evolution, ACID compliance, etc. 
+
+So what do people think? 
+
+Have Iceberg and Delta Lake become almost the same thing? Obviously they work differently under the hood (manifest files vs Delta Log), but do their differences still mean something. Or have they just converged on one level, but are still different enough if you look underneath? I'm thinking maybe ecosystem integration. Delta is much more tightly integrated with Spark, for instance. 
+
+Thoughts?",35,23,Teach-To-The-Tech,2024-09-06 16:15:04,https://www.reddit.com/r/dataengineering/comments/1faj4m2/are_the_differences_between_delta_lake_and_apache/,0.87,False,False,False,False
+1famd92,How to prepare to land a higher paying role ,"Currently working as a data engineer for a smaller healthcare analytics company. I’ve been there for a little over 3 years. Before this role I worked in data warehouse development (primarily SQL, Snowflake and Azure). In my current role I work primarily with AWS and PySpark. I was stuck in the 80K range for several years, got a bump up to 100K about a year ago. How can I prepare for and land a role earning closer to $150K? At this point I think I have enough years of experience, but I probably lack the skill level with these tools to command that sort of salary. What should I study? Should I get any additional certifications? Currently only have Microsoft certs I earned several years ago (MCSE: Data Management and Analytics). I’m not in a rush, I love my company and have stability here, but even with promotions and salary bumps I know I won’t get anywhere near that in the next 2 years. Given inflation and my own personal financial goals, I’d really like to make a significant jump in income - especially because it seems like many others are doing it. Currently, I’m studying for the aws solution architect certification but I don’t really know what areas to focus on improving in python/pyspark, etc. Any advice appreciated!",19,12,Intelligent_Today384,2024-09-06 18:31:36,https://www.reddit.com/r/dataengineering/comments/1famd92/how_to_prepare_to_land_a_higher_paying_role/,0.81,False,False,False,False
+1faf2xo,Do you prefer being an expert in one technology or now a lot in general?,"
+Is it more beneficial in data engineering to become highly specialized in one or two key technologies, like mastering Spark, Azure, or is it better to have a broader knowledge across a wide range of tools and platforms? 
+
+For example, should I focus on becoming an expert in just a few technologies, or aim to be proficient in a wider range like Kafka, Airflow, SQL, and multiple cloud platforms? 
+
+I'm curious which approach would be more valuable in the long run.",14,11,Free-Traffic-3166,2024-09-06 13:23:16,https://www.reddit.com/r/dataengineering/comments/1faf2xo/do_you_prefer_being_an_expert_in_one_technology/,0.86,False,False,False,False
+1faj8zu,Good places to search for a remote job,"Hello there! I'm looking for good platforms or other places to search for a job.
+
+**Background**.
+
+`I live in Eastern Europe. I've been in software development for 3-4 years now. I learned Python by myself and worked full-time as an independent contractor at a US company as a Data Engineer for 2 recent years completely remote.`
+
+`I never worked in the local IT industry market because we have a lot of outsourced IT companies who have insane requirements, selling you for $50 per hour and offering you $10-15 in return. That is not accurate rates, just an example to explain the overall situation.`
+
+`That was really fun for me when for the first year of my journey in Python local companies were denying me because of my poor knowledge and lack of commerce experience for junior positions with a $500 per month salary. And at the same time, people were hiring me to create scripts and scrapers for $100 and more which required 1-3 days of noob job at that time. There was a point when a dude hired me for $2k per month for a couple of months to write scrapers.`
+
+`I focused on UpWork at that time and my clients were from there, some randomly found me on LinkedIn by themselves. Also, I had a YouTube channel with 3 videos and some people found me there. I worked all the time with people from North America and Europe.`
+
+In two recent years, I worked with the same employer that reached me on Upwork.
+
+**Upwork** has changed in those years and now it consumes Connects (tokens to send job applications) like hell. You can spend $10-20 per day for nothing or even more, there is no limit to that craziness.
+
+**LinkedIn** is a very random source because nobody can contact you for months but on other days 5 persons in a row could text you.
+
+I tried **Fiverr** but its system with ads is weird and more suitable for art creators rather than software devs. Nobody ever contacted me from there.
+
+Tried **Freelancercom** which is more like Upwork and more loyal to investment to find something but I didn't succeed there.
+
+**Toptal** denied me for now but they are very demanding and I'm not a Super-Giga-Pro-Senior-Architect so that is okay for now.
+
+>Could it be valuable to use traditional platforms like Indeed in the US, CA, UK, IR etc (North America and Europe) domains to catch a full-time or at least part-time contract? Or do people search there only for locals?
+
+For example, I know that in the US W2 and 401k marking means that the job is for locals but I know that there are independent contracts and that is how I worked in previous years with that long-term job I described earlier. That just came randomly from Upwork.
+
+I don't want to uselessly spam recruiters so my questions are:
+
+1. Is it possible to find contract opportunities for remote foreign contractors like me on conventional job boards? How those job posts might be marked? I'm a single freelancer and I can't relocate from my country for now, unfortunately, just in case.
+2. Any advice about any platform or job board that I could try is welcome.
+3. Are there any specific job boards for IT specialists that are welcoming for foreign freelancers like me in the US, UK, CA, IR and EU overall?
+
+`I mentioned the US, UK, CA, IR and EU several times because those are countries where I had clients in the past and didn't have any trouble working or communicating with them. So will be glad in advice that is relevant to any of them.`
+
+Thanks to everyone who will find time to share their thoughts.",12,0,bezel_zelek,2024-09-06 16:20:09,https://www.reddit.com/r/dataengineering/comments/1faj8zu/good_places_to_search_for_a_remote_job/,0.94,False,False,False,False
+1faj1q1,How to make 10TB of data available on-demand to my users,"Hi, I have very little knowledge of software engineering but have been working my way by learning from reddit/stack-overflow and experimentation. I would like to learn about cheap ways I could make about 10 TB of data available to my users.
+
+As of now, I have about 1TB of data stored in my external SSD. I have attached this SSD to my wifi router and have configured NAT to make it available over the internet. It is an FTP server and I have a python wrapper that facilitates the read/write operations. This costs me about $50 per month for internet connection and a one time cost for the SSD.
+
+For the sake of simplicity, lets assume with 10TB of data:
+
+* Each file size is \~100 Mb
+* 60000 reads per day
+* 10000 writes per day
+* data is partitioned by group\_1/sub\_group\_1/sub\_sub\_group\_1/year/month/day
+
+I went through pricing documentation of AWS S3, and it seems it would cost me well over $1000 per month.
+
+I am tempted to buy more SSDs and configure them with my router. I believe with increasing requests the router with clog up and give rise to increased latency issues. I was wondering if I can get more than 1 internet connection. This way the cost of external SSDs are a 1-time cost, internet connection cost is much lower than AWS s3 and read/write is free.
+
+Am I going in a completely wrong direction?? What are other alternate low-cost, low-latency options?
+
+Any help/feedback direction is appreciated.
+
+Thanks!  
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+EDIT:  
+I am building a platform that allows users to apply custom filters to a given song.
+
+- Applying a filter to a song is a slow-ish operation.  
+- I want my users to be able to apply any number of filters to a song.  
+- I want to pre-compute weights for different filters so it can be applied to a song in one go",13,10,explorer_soul99,2024-09-06 16:11:46,https://www.reddit.com/r/dataengineering/comments/1faj1q1/how_to_make_10tb_of_data_available_ondemand_to_my/,0.9,False,False,False,False
+1fatayj,Azure vs Aws,"
+After months of confusion on where i want be a data scientist or a data engineer. Finally I realized I’m interested in Data engineering. I’m setting my foot into Data engineering with a clear head and want to start building projects. 
+
+Which one would you suggest getting Hands-on with? AWS or Azure? Or what else would you suggest, that might be helpful for my job hunt in this market??",9,11,Then_Sundae_7645,2024-09-06 23:33:59,https://www.reddit.com/r/dataengineering/comments/1fatayj/azure_vs_aws/,0.78,False,False,False,False
+1faqljq,How are you standardizing data across different external sources?,"For example, let's say you're getting data from Crunchbase, Pitchbook, and LinkedIn. How do you ""standardize"" across these different data providers? 
+
+  
+I'm working on a mapping algorithm for building crosswalks between data sources. Curious to know if anyone deals with these issues and if you have an out of the box solution you use. ",10,3,Different-General700,2024-09-06 21:30:38,https://www.reddit.com/r/dataengineering/comments/1faqljq/how_are_you_standardizing_data_across_different/,1.0,False,False,False,False
+1famvc9,Where do you create your python virtual environments in your local dev env?,"1) I am trying to see if the VENV should be within the project folder? 
+
+2) or if I should have a separate directory with all my VENVs?
+
+If its 1), does that mean I need to remember to add it to my gitignore file? ",7,8,Green-Aide-2354,2024-09-06 18:53:19,https://www.reddit.com/r/dataengineering/comments/1famvc9/where_do_you_create_your_python_virtual/,0.9,False,False,False,False
+1fal8p2,Best resources to learn AWS,"I use AWS S3, DynamoDB, Lambda, Cloudwatch and Redshift at my job but I don’t use these things everyday and honestly just have interacted with these tools so far without really know what im doing. I saw AWS has a skill builder course and see both an actual course and cloud quest game. Are these enough to get started with the basics? I’m not planning to get certification just yet, just a higher level and technical overview would be good ",8,2,thro0away12,2024-09-06 17:44:02,https://www.reddit.com/r/dataengineering/comments/1fal8p2/best_resources_to_learn_aws/,1.0,False,False,False,False
+1fafxy6,Apache Spark(Pyspark) Performance tuning tips and tricks,"I have recently started working with pyspark and need advice on how to optimize spark job performance when processing large amounts of data .
+
+What would be some ways to improve performance for data transformations when working with spark dataframes?
+
+Any tips would be greatly appreciated , thanks!",5,1,Notalabel_4566,2024-09-06 14:01:48,https://www.reddit.com/r/dataengineering/comments/1fafxy6/apache_sparkpyspark_performance_tuning_tips_and/,0.86,False,False,False,False
+1fagxhg,"What happened to ""Wizard for dbt Core"" and the Fivetran dbt language server?",I went to try to set this up in my new Cursor(VS Code) environment and it looks like its been erased from existence.  Github appears to be gone.  Search results are all 1+ years old.  Did this get pulled and I just missed it?  I've been using this every day for some time now.,3,0,warpraptor,2024-09-06 14:44:25,https://www.reddit.com/r/dataengineering/comments/1fagxhg/what_happened_to_wizard_for_dbt_core_and_the/,0.72,False,False,False,False
+1fafk2l,End-to-End Testing and Release in Data World,"I think many of us have imagined to run unit tests or e2e test against the ""data"" (not the code that generates the data) to check if the data meet some criteria and then ""release the data"" to maintain data reliability. here is how I approach it:
+
+[https://medium.com/@matao.xjtu/database-release-and-end-to-end-testing-juicefs-bring-modern-software-development-best-practice-ee7e5115a668](https://medium.com/@matao.xjtu/database-release-and-end-to-end-testing-juicefs-bring-modern-software-development-best-practice-ee7e5115a668)",3,0,Senior_Kiwi_4628,2024-09-06 13:44:41,https://www.reddit.com/r/dataengineering/comments/1fafk2l/endtoend_testing_and_release_in_data_world/,0.81,False,False,False,False
+1faeesq,Stateful Data Transfer from Mongo to PostgreSQL,"Hi everyone,
+
+I would like to read data from Mongo on a daily basis, do some transformations on Python, and save them into PostgreSQL. Since I am doing it a constant time interval, first, I thought to accomplish the job by checking update dates, but MongoDB collections is not configured to store update dates. So, I would like to use something that handles the job of bookmarking already processed data, so I do not process the same document over and over again.
+
+What do you suggest? Any tool, method, etc...",3,2,gxslash,2024-09-06 12:51:49,https://www.reddit.com/r/dataengineering/comments/1faeesq/stateful_data_transfer_from_mongo_to_postgresql/,0.81,False,False,False,False
+1farhb0,Data structures for Full-Text-Indexing,"I'm currently doing some research into full text search methods in order to build my own search engine. Right now I have managed to get a pretty fast prefix search using a form of trie, but ideally the engine should be able to do infix search similar to `like '%foo%'` in SQL. I know that Typesense uses a HAT trie for this, but I could not figure out how they use it exactly. Another way I found was to use suffix arrays or suffix tries, but they seem very memory inefficient as they store every possible suffix. For context, the data being indexed will have rows somewhere in the 6 digit range, with each having about 0.5kB of data. My questions are:
+
+* Is this even realistically achievable?
+* How can a HAT trie be used for this, as typesense does?
+* How do the built-in full-text indexes in SQL work?
+* What would you recommend as a suitable approach?
+
+I am not able to use any of the built-in features of a DBMS, so the engine will have to run completely on its own. Thank you for your helpThank you for your help",2,1,International-Tap906,2024-09-06 22:09:46,https://www.reddit.com/r/dataengineering/comments/1farhb0/data_structures_for_fulltextindexing/,0.76,False,False,False,False
+1faqn28,Need advice for creating Data pipeline,"Hello, I'm fresh from university and currently doing some side projects in order to land a job in *data* position - preferably Data Analyst. Nevertheless, I've decided to do also a bit of data engineering and since I'm a beginner in this field, I'm seeking some advice.
+
+I have access to the database of my friends' e-commerce web platform and my idea was to create him a data pipeline. His database is not big - 400MB, and creates around few thousand transactions each year. Nevertheless, I thought of creating an ETL (or ELT with dbt) process that would read the data from the OLTP database of the web platform and store it in the Data Warehouse (star schema) in snowflake using dbt. Afterwards, I would connect Tableau to the Data Warehouse.
+
+The result be would near real time analytics through Tableau.
+
+Questions:
+
+* Are these technologies (snowflake and dbt) suitable for the work planned, if not what are?
+* Also, I'm aware the technologies are a bit overkill for the task (since the database is small), but the intend here is to do it by industry standards for the CV.
+* Do you have any (technical) resources that explain the process as I've explained?
+
+Thanks in advance!",2,1,Nochioni,2024-09-06 21:32:29,https://www.reddit.com/r/dataengineering/comments/1faqn28/need_advice_for_creating_data_pipeline/,0.76,False,False,False,False
+1fahrgw,Senior Roles - Data Engineering ,Can somebody suggest good content that covers system design for senior data engineering leadership roles . I am mainly targeting leadership roles for data engineering ?,2,0,Hungry_Resolution421,2024-09-06 15:18:41,https://www.reddit.com/r/dataengineering/comments/1fahrgw/senior_roles_data_engineering/,0.67,False,False,False,False
+1fah1v8,Cloud compute for on prem DW,"My company is looking for a new ETL process but wants to keep the existing EDW on prem SQL server. What are some solutions where we can pull data from db2, do ETL using cloud compute, and then bring it to our sql server. I thought of using an orchestration tool like airflow or dragster. Spinning up compute containers using docker. And using python/sql to script. But they also want a managed solution and something with support. Thoughts?
+
+FYI: we are moving away from informatica and I would prefer if we don’t go with another outdated GUI tool.",2,3,putt_stuff98,2024-09-06 14:49:27,https://www.reddit.com/r/dataengineering/comments/1fah1v8/cloud_compute_for_on_prem_dw/,0.76,False,False,False,False
+1faajzd,Degree to work abroad ?,"I’m from the UK and I’ve been having the urge to want to move abroad in the future  in particular the middle east- Qatar, Dubai mainly and to work there in data(analytics/science/engineering) 
+and just have been looking at some jobs there and seen most if not all require you to have a degree. Does anyone know if it’s possible to get a job there  without a degree and just mainly on few years experience? ",2,5,Proper_Jackfruit_185,2024-09-06 08:57:17,https://www.reddit.com/r/dataengineering/comments/1faajzd/degree_to_work_abroad/,0.67,False,False,False,False
+1fau4fj,Snowpark question around model selection,"Hello DE experts.
+
+I was curious to know if anyone knew how to implement automated model selection within Snowpark? SF folks have been advocating to our ML teams to use Snowpark and we have already have a  very good Spark-based pipeline running in EMR and step functions that costs us very little that selects the best model/ML algorithm based on a variety of scores, but we couldn't see a cost-effective way of doing this in Snowpark aside from running multiple large warehouses simultaneously, or something similar to that.
+
+Thanks!",1,0,Separate-Purple5671,2024-09-07 00:13:27,https://www.reddit.com/r/dataengineering/comments/1fau4fj/snowpark_question_around_model_selection/,0.67,False,False,False,False
+1famd7w,Thoughts on this course for a beginner DE,Hi! I would love to know your thoughts on [this ](https://www.udemy.com/course/aws-data-engineer/)course for a novice DE transitioning from software engineering (regardless of the importance of the exam),1,2,FinanceOld3216,2024-09-06 18:31:34,https://www.reddit.com/r/dataengineering/comments/1famd7w/thoughts_on_this_course_for_a_beginner_de/,0.6,False,False,False,False
+1faejre,Using Segment with Snowflake,I'm currently trying to integrate segment with Snowflake as destination. I am trying to understand if moving data from Segment to Snowflake will cost me a lot of Snowflake credits since data would come in very frequently.,1,2,Mediocre-Cow354,2024-09-06 12:58:40,https://www.reddit.com/r/dataengineering/comments/1faejre/using_segment_with_snowflake/,0.67,False,False,False,False
+1fad86s,Atanasuite (Teradata Client) download,"Anyone able to send me an installer for Atanasuite? The websites no longer available. Thanks.
+
+EDIT: I have a license.",1,0,Optus_SimCard,2024-09-06 11:51:41,https://www.reddit.com/r/dataengineering/comments/1fad86s/atanasuite_teradata_client_download/,0.67,False,False,False,False
+1faahyz,Advice needed: Optimizing data flow for complex Python project,"I'm currently working on a project that is fully implemented in Python. The workflow involves retrieving data from a third-party API, then utilizing AI services to extract additional information from this data. Both of these initial stages produce data in JSON format. From there, the JSON data is converted into a tabular format (CSV) for further processing.
+
+The project has three more stages:
+
+1. Data transformation (filtering, removing duplicates, etc.).
+2. Clustering.
+3. Reusing AI services for extracting additional information.
+
+These stages currently use CSV files as both input and output. Finally, the processed data is pushed to a relational database in Azure.
+
+The original design was structured this way because the team who set it up were not technical. They wanted to manually validate the data between stages by opening the CSVs in Excel to ensure everything looked correct before moving to the next step.
+
+As you can imagine, this has resulted in a somewhat messy data pipeline. I'm looking for advice on the best way to handle data between these stages. Should we keep the data in JSON format (in memory) until it's ready to be pushed to the database, or should we store it in a relational database after each stage and then query it for the next stage?
+
+I’m fairly new to this, so I would greatly appreciate any guidance. Thank you!",1,1,Traditional_Cod_9001,2024-09-06 08:53:07,https://www.reddit.com/r/dataengineering/comments/1faahyz/advice_needed_optimizing_data_flow_for_complex/,0.67,False,False,False,False
+1fa9sxm,Azure Data engineer certification help,"Hi All,
+
+I have almost 5 years of work experience as oracle DB developer and just started as data engineer few months ago. So I have really good sql knowledge. In my new project we use Azure synapse analytics and I want to do azure data engineer certification. Any guidance on the certification preparation is much appreciated. I found a udemy course but not sure if it is enough as I am a complete beginner in Data engineering and python. So any advice on courses or YouTube tutorials will be of great help. Thanks ",1,5,Evening_Mouse_9582,2024-09-06 08:00:50,https://www.reddit.com/r/dataengineering/comments/1fa9sxm/azure_data_engineer_certification_help/,0.6,False,False,False,False
+1faffxt,Share your dotfiles,"That's it. Let's see what your setup looks like.
+
+Give us some highlights. Brag a bit.
+
+Here's mine: [https://github.com/ivanovyordan/dotfiles](https://github.com/ivanovyordan/dotfiles)
+
+*  I keep all my config in a single directory and link them using a tool called Stow.
+* Also, instead of a POSIX-compliant shell like Bash or Zsh, I use Fish.
+* My editor of choice is Neovim. Never managed to convert to VS Code.",0,0,ivanovyordan,2024-09-06 13:39:39,https://www.reddit.com/r/dataengineering/comments/1faffxt/share_your_dotfiles/,0.5,False,False,False,False
+1faaxdg,Challenges with MongoDB,"doing some research on MongoDB and other databases, curious to know where you guys face challenge with MongoDB?
+
+[View Poll](https://www.reddit.com/poll/1faaxdg)",0,16,biz-guru-3112,2024-09-06 09:25:19,https://www.reddit.com/r/dataengineering/comments/1faaxdg/challenges_with_mongodb/,0.5,False,False,False,False
+1faeorw,Data strategy,"So how can i build robust data strategy that use best data engineering practices to maintain vaule over time .
+
+What's the step ? 
+How to build data modeling milestones etc ?",0,13,AShmed46,2024-09-06 13:04:56,https://www.reddit.com/r/dataengineering/comments/1faeorw/data_strategy/,0.33,False,False,False,False

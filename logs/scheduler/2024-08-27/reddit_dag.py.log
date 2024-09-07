@@ -1,0 +1,770 @@
+[2024-08-27T00:04:01.252+0000] {processor.py:161} INFO - Started process (PID=7286) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T00:04:01.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T00:04:01.255+0000] {logging_mixin.py:188} INFO - [2024-08-27T00:04:01.255+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T00:04:01.293+0000] {logging_mixin.py:188} INFO - [2024-08-27T00:04:01.291+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T00:04:01.293+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T00:04:01.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.064 seconds
+[2024-08-27T01:10:25.559+0000] {processor.py:161} INFO - Started process (PID=7287) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T01:10:25.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T01:10:25.563+0000] {logging_mixin.py:188} INFO - [2024-08-27T01:10:25.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T01:10:25.597+0000] {logging_mixin.py:188} INFO - [2024-08-27T01:10:25.596+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T01:10:25.597+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T01:10:25.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.059 seconds
+[2024-08-27T02:07:04.300+0000] {processor.py:161} INFO - Started process (PID=7288) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T02:07:04.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T02:07:04.302+0000] {logging_mixin.py:188} INFO - [2024-08-27T02:07:04.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T02:07:04.336+0000] {logging_mixin.py:188} INFO - [2024-08-27T02:07:04.334+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T02:07:04.336+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T02:07:04.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.055 seconds
+[2024-08-27T02:17:13.672+0000] {processor.py:161} INFO - Started process (PID=7289) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T02:17:13.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T02:17:13.676+0000] {logging_mixin.py:188} INFO - [2024-08-27T02:17:13.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T02:17:13.712+0000] {logging_mixin.py:188} INFO - [2024-08-27T02:17:13.711+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T02:17:13.713+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T02:17:13.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.061 seconds
+[2024-08-27T03:55:31.557+0000] {processor.py:161} INFO - Started process (PID=7290) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T03:55:31.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T03:55:31.559+0000] {logging_mixin.py:188} INFO - [2024-08-27T03:55:31.559+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T03:55:31.593+0000] {logging_mixin.py:188} INFO - [2024-08-27T03:55:31.591+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T03:55:31.593+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T03:55:31.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.057 seconds
+[2024-08-27T05:09:00.608+0000] {processor.py:161} INFO - Started process (PID=7291) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T05:09:00.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T05:09:00.612+0000] {logging_mixin.py:188} INFO - [2024-08-27T05:09:00.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T05:09:00.649+0000] {logging_mixin.py:188} INFO - [2024-08-27T05:09:00.648+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T05:09:00.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T05:09:00.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.062 seconds
+[2024-08-27T06:57:59.585+0000] {processor.py:161} INFO - Started process (PID=7292) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T06:57:59.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T06:57:59.589+0000] {logging_mixin.py:188} INFO - [2024-08-27T06:57:59.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T06:57:59.628+0000] {logging_mixin.py:188} INFO - [2024-08-27T06:57:59.626+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T06:57:59.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T06:57:59.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.064 seconds
+[2024-08-27T07:10:58.471+0000] {processor.py:161} INFO - Started process (PID=7293) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T07:10:58.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T07:10:58.475+0000] {logging_mixin.py:188} INFO - [2024-08-27T07:10:58.475+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T07:10:58.514+0000] {logging_mixin.py:188} INFO - [2024-08-27T07:10:58.512+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T07:10:58.514+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T07:10:58.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.065 seconds
+[2024-08-27T08:15:10.806+0000] {processor.py:161} INFO - Started process (PID=7294) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T08:15:10.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T08:15:10.810+0000] {logging_mixin.py:188} INFO - [2024-08-27T08:15:10.810+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T08:15:10.877+0000] {logging_mixin.py:188} INFO - [2024-08-27T08:15:10.876+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T08:15:10.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T08:15:10.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.100 seconds
+[2024-08-27T08:53:23.990+0000] {processor.py:161} INFO - Started process (PID=7295) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T08:53:23.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T08:53:23.994+0000] {logging_mixin.py:188} INFO - [2024-08-27T08:53:23.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T08:53:24.060+0000] {logging_mixin.py:188} INFO - [2024-08-27T08:53:24.055+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T08:53:24.061+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T08:53:24.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.095 seconds
+[2024-08-27T09:13:11.668+0000] {processor.py:161} INFO - Started process (PID=7296) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T09:13:11.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T09:13:11.671+0000] {logging_mixin.py:188} INFO - [2024-08-27T09:13:11.670+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T09:13:11.706+0000] {logging_mixin.py:188} INFO - [2024-08-27T09:13:11.705+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T09:13:11.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T09:13:11.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.060 seconds
+[2024-08-27T10:30:15.660+0000] {processor.py:161} INFO - Started process (PID=7297) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T10:30:15.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T10:30:15.664+0000] {logging_mixin.py:188} INFO - [2024-08-27T10:30:15.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T10:30:15.699+0000] {logging_mixin.py:188} INFO - [2024-08-27T10:30:15.697+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T10:30:15.699+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T10:30:15.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.058 seconds
+[2024-08-27T11:48:56.534+0000] {processor.py:161} INFO - Started process (PID=7298) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T11:48:56.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T11:48:56.538+0000] {logging_mixin.py:188} INFO - [2024-08-27T11:48:56.538+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T11:48:56.575+0000] {logging_mixin.py:188} INFO - [2024-08-27T11:48:56.574+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T11:48:56.576+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T11:48:56.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.063 seconds
+[2024-08-27T11:52:18.917+0000] {processor.py:161} INFO - Started process (PID=7299) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T11:52:18.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T11:52:18.922+0000] {logging_mixin.py:188} INFO - [2024-08-27T11:52:18.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T11:52:18.962+0000] {logging_mixin.py:188} INFO - [2024-08-27T11:52:18.961+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T11:52:18.963+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T11:52:18.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.069 seconds
+[2024-08-27T12:05:22.393+0000] {processor.py:161} INFO - Started process (PID=7300) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:05:22.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T12:05:22.397+0000] {logging_mixin.py:188} INFO - [2024-08-27T12:05:22.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:05:22.433+0000] {logging_mixin.py:188} INFO - [2024-08-27T12:05:22.432+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T12:05:22.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:05:22.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.061 seconds
+[2024-08-27T12:07:12.148+0000] {processor.py:161} INFO - Started process (PID=7301) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:07:12.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T12:07:12.153+0000] {logging_mixin.py:188} INFO - [2024-08-27T12:07:12.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:07:12.193+0000] {logging_mixin.py:188} INFO - [2024-08-27T12:07:12.192+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T12:07:12.194+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:07:12.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.068 seconds
+[2024-08-27T12:09:22.005+0000] {processor.py:161} INFO - Started process (PID=7302) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:09:22.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T12:09:22.009+0000] {logging_mixin.py:188} INFO - [2024-08-27T12:09:22.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:09:22.049+0000] {logging_mixin.py:188} INFO - [2024-08-27T12:09:22.048+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T12:09:22.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T12:09:22.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.067 seconds
+[2024-08-27T13:16:59.438+0000] {processor.py:161} INFO - Started process (PID=7303) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T13:16:59.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T13:16:59.441+0000] {logging_mixin.py:188} INFO - [2024-08-27T13:16:59.441+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T13:16:59.478+0000] {logging_mixin.py:188} INFO - [2024-08-27T13:16:59.476+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T13:16:59.478+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T13:16:59.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.061 seconds
+[2024-08-27T14:18:08.246+0000] {processor.py:161} INFO - Started process (PID=7304) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T14:18:08.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T14:18:08.248+0000] {logging_mixin.py:188} INFO - [2024-08-27T14:18:08.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T14:18:08.280+0000] {logging_mixin.py:188} INFO - [2024-08-27T14:18:08.278+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T14:18:08.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T14:18:08.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.053 seconds
+[2024-08-27T16:54:17.432+0000] {processor.py:161} INFO - Started process (PID=7305) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T16:54:17.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T16:54:17.435+0000] {logging_mixin.py:188} INFO - [2024-08-27T16:54:17.435+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T16:54:17.473+0000] {logging_mixin.py:188} INFO - [2024-08-27T16:54:17.472+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T16:54:17.473+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T16:54:17.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.062 seconds
+[2024-08-27T18:43:17.545+0000] {processor.py:161} INFO - Started process (PID=7306) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T18:43:17.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T18:43:17.548+0000] {logging_mixin.py:188} INFO - [2024-08-27T18:43:17.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T18:43:17.581+0000] {logging_mixin.py:188} INFO - [2024-08-27T18:43:17.579+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T18:43:17.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T18:43:17.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.056 seconds
+[2024-08-27T19:13:23.297+0000] {processor.py:161} INFO - Started process (PID=7307) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:13:23.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T19:13:23.300+0000] {logging_mixin.py:188} INFO - [2024-08-27T19:13:23.300+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:13:23.331+0000] {logging_mixin.py:188} INFO - [2024-08-27T19:13:23.330+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T19:13:23.332+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:13:23.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.055 seconds
+[2024-08-27T19:14:23.944+0000] {processor.py:161} INFO - Started process (PID=7308) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:14:23.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T19:14:23.948+0000] {logging_mixin.py:188} INFO - [2024-08-27T19:14:23.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:14:23.988+0000] {logging_mixin.py:188} INFO - [2024-08-27T19:14:23.986+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T19:14:23.988+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:14:24.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.067 seconds
+[2024-08-27T19:16:33.870+0000] {processor.py:161} INFO - Started process (PID=7309) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:16:33.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T19:16:33.874+0000] {logging_mixin.py:188} INFO - [2024-08-27T19:16:33.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:16:33.914+0000] {logging_mixin.py:188} INFO - [2024-08-27T19:16:33.913+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T19:16:33.915+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T19:16:33.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.067 seconds
+[2024-08-27T20:01:05.506+0000] {processor.py:161} INFO - Started process (PID=7310) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T20:01:05.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T20:01:05.508+0000] {logging_mixin.py:188} INFO - [2024-08-27T20:01:05.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T20:01:05.540+0000] {logging_mixin.py:188} INFO - [2024-08-27T20:01:05.538+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T20:01:05.540+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T20:01:05.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.053 seconds
+[2024-08-27T21:51:28.200+0000] {processor.py:161} INFO - Started process (PID=7311) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T21:51:28.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T21:51:28.204+0000] {logging_mixin.py:188} INFO - [2024-08-27T21:51:28.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T21:51:28.238+0000] {logging_mixin.py:188} INFO - [2024-08-27T21:51:28.237+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T21:51:28.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T21:51:28.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.059 seconds
+[2024-08-27T22:52:00.933+0000] {processor.py:161} INFO - Started process (PID=7312) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T22:52:00.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T22:52:00.937+0000] {logging_mixin.py:188} INFO - [2024-08-27T22:52:00.937+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T22:52:00.979+0000] {logging_mixin.py:188} INFO - [2024-08-27T22:52:00.977+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T22:52:00.979+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T22:52:00.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.068 seconds
+[2024-08-27T22:53:21.919+0000] {processor.py:161} INFO - Started process (PID=7313) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T22:53:21.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T22:53:21.923+0000] {logging_mixin.py:188} INFO - [2024-08-27T22:53:21.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T22:53:21.963+0000] {logging_mixin.py:188} INFO - [2024-08-27T22:53:21.962+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T22:53:21.963+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T22:53:21.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.067 seconds
+[2024-08-27T23:01:56.061+0000] {processor.py:161} INFO - Started process (PID=7314) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:01:56.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T23:01:56.064+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:01:56.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:01:56.098+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:01:56.096+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T23:01:56.098+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:01:56.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.056 seconds
+[2024-08-27T23:23:55.180+0000] {processor.py:161} INFO - Started process (PID=7315) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:23:55.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T23:23:55.183+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:23:55.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:23:55.218+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:23:55.217+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T23:23:55.219+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:23:55.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.064 seconds
+[2024-08-27T23:27:43.811+0000] {processor.py:161} INFO - Started process (PID=7316) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:27:43.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T23:27:43.815+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:27:43.814+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:27:43.854+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:27:43.853+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T23:27:43.855+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:27:43.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.066 seconds
+[2024-08-27T23:30:12.587+0000] {processor.py:161} INFO - Started process (PID=7317) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:30:12.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T23:30:12.591+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:30:12.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:30:12.628+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:30:12.627+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T23:30:12.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:30:12.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.062 seconds
+[2024-08-27T23:35:36.045+0000] {processor.py:161} INFO - Started process (PID=7318) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:35:36.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T23:35:36.049+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:35:36.049+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:35:36.088+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:35:36.086+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T23:35:36.088+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:35:36.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.068 seconds
+[2024-08-27T23:39:15.776+0000] {processor.py:161} INFO - Started process (PID=7319) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:39:15.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T23:39:15.781+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:39:15.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:39:15.821+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:39:15.820+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T23:39:15.822+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:39:15.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.069 seconds
+[2024-08-27T23:42:26.782+0000] {processor.py:161} INFO - Started process (PID=7320) to work on /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:42:26.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-08-27T23:42:26.786+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:42:26.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:42:26.824+0000] {logging_mixin.py:188} INFO - [2024-08-27T23:42:26.823+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 10, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 2, in <module>
+    from utils.constants import CLIENT_ID, SECRET
+  File "/opt/airflow/utils/constants.py", line 7, in <module>
+    SECRET = parser.get('api_keys', 'reddit_secret_key')
+  File "/usr/local/lib/python3.9/configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "/usr/local/lib/python3.9/configparser.py", line 1152, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'api_keys'
+[2024-08-27T23:42:26.825+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-08-27T23:42:26.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.064 seconds
